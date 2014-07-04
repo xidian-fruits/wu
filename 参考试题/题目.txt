@@ -1,0 +1,67 @@
+1.以下不属于ruby特点的是（a）？
+a.不提供异常处理机制
+b.解释型执行，方便快捷
+c.完全面向对象
+d.语法简单、优雅
+
+2.ruby中，若某个类已经被定义过，此时又用相同的类名进行类定义的话，就意味着对原有的类的定义进行(a)？
+a.追加
+b.重写
+c.继承
+d.重载
+
+3.
+a=1
+b=1.0
+c=1.0
+d=1.0
+e=c
+puts(a==b)#值相等
+puts(a.eql?(b)) #值相等，类型相等
+puts(c.equal?(d))#值相等，内存地址相等
+puts(c.equal?(e))   
+
+结果为（a）
+a.true   b.true   c.false     d.false
+false      false     false      true
+false       false    true      true
+true       false     true      true
+
+
+题目4：.html.erb文件在MVC模式中充当的角色？ (A)
+A.Views  B.Models  C.Controllers  D.Helper
+
+
+题目5：在erb文件中内嵌ruby语句的标签格式
+A.<?php ?> B<%=  %>  C.<script></script> D.<applet></applet>
+
+
+nodejs是什么？  4
+1. 网页动画框架 
+2. 前端Javascript选择器 
+3. Javascript解释器 
+4. 服务器运行的Javascript 
+
+以下哪项不是Javascript的特点   3
+1. 动态类型语言 
+2. 函数式编程语言 
+3. 有‘class’关键字 
+4. 有‘function’关键字 
+
+http状态中表示‘找不到资源’的是    3
+1. 200 
+2. 304 
+3. 404 
+5. 503 
+
+http方法中表示获取资源的是    1   
+1. get 
+2. post 
+3. delete 
+4. put
+
+nodejs平台下流行的开发框架是   4
+1. jquery
+2. angular
+3. sea.js
+4. express
